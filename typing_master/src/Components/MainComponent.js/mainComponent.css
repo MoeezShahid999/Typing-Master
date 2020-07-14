@@ -1,0 +1,7 @@
+.flex-box{
+    display: flex;
+}
+.flex-box > *{
+    flex: 1;
+    margin: 20px;
+}

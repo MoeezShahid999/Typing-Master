@@ -1,0 +1,33 @@
+.App .heading{
+  font-size: 18px;
+  font-size: 24px;
+  font-weight: 550;
+  text-align: center;
+  margin: 10px 0;
+}
+.App textarea{
+  height: 300px;
+  width: 50vw;
+  min-width: 500px;
+  border: 1px solid grey;
+  /* text-align: center; */
+  outline: none;
+  font-size: 14px;
+  padding: 10px;
+}
+.App > .textarea{
+  margin: 40px auto;
+  width: 50vw;
+}
+.App .btn{
+  width: 200px;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all .3s;
+}
+.App .btn:hover{
+  background-color: black;
+  color: white;
+}
